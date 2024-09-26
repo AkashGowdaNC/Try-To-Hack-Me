@@ -1,0 +1,2 @@
+1: What is the name of the career role that is legally employed to find vulnerabilities in applications?
+ans:   penetration tester
