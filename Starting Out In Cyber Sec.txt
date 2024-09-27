@@ -1,2 +1,4 @@
 1: What is the name of the career role that is legally employed to find vulnerabilities in applications?
 ans:   penetration tester
+2:What is the famous example of a targeted attack-esque Malware that targeted Iran?
+ans:Stuxnet
