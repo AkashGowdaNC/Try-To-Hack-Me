@@ -2,3 +2,5 @@
 ans:   penetration tester
 2:What is the famous example of a targeted attack-esque Malware that targeted Iran?
 ans:Stuxnet
+Read the Introduction
+ans:no answer neded
