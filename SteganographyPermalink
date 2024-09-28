@@ -1,1 +1,17 @@
+Steganography is hiding a file or a message inside of another file , there are many fun steganography CTF challenges out there where the flag is hidden in an image , audio file or even other types of files. Here is a list of the most tools I use and some other useful resources.
+Note : This list will be updated regularly , feel free to pm if you have any suggestions Last update : 29.1.2019
+Steghide is a steganography program that hides data in various kinds of image and audio files , only supports these file formats : JPEG, BMP, WAV and AU. but it’s also useful for extracting embedded and encrypted data from other files.
+It can be installed with apt however the source can be found on github.
 
+Useful commands:
+steghide info file : displays info about a file whether it has embedded data or not.
+steghide extract -sf file : extracts embedded data from a file
+foremost -i file : extracts data from the given file.
+strings file : displays printable strings in the given file
+exiftool file : shows the metadata of the given file
+zsteg -a file : Runs all the methods on the given file
+zsteg -E file : Extracts data from the given payload (example : zsteg -E b4,bgr,msb,xy name.png){: .align-center}
+binwalk file : Displays the embedded data in the given file
+binwalk -e file : Displays and extracts the data from the given file
+zsteg is a tool that can detect hidden data in png and bmp files.
+to install it : gem install zsteg , The source can be found on github
